@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/baby-toy" mode="merge"/>
+    <filter root="/content/baby-toy" mode="merge"/>
+    <filter root="/content/dam/baby-toy" mode="merge">
+        <exclude pattern="/content/dam/baby-toy(/.*)?"/>
+        <include pattern="/content/dam/baby-toy/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/baby-toy/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/baby-toy" mode="merge"/>
+</workspaceFilter>
